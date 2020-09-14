@@ -1,17 +1,20 @@
 <template>
   <div>
-    index
+    <FiveCircle/>
   </div>
 </template>
 
 <script>
+import FiveCircle from '../components/FiveCircle'
 export default {
   name: 'Index',
+  components: {
+    FiveCircle
+  },
   data () {
     return {
     };
   },
-  components: {},
   computed: {},
   methods: {}
 }
