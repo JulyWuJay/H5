@@ -18,4 +18,12 @@ export default {
   margin: 0;
   border: 0;
 }
+body{
+  width: 100%;
+  overflow: hidden;
+}
+#app{
+  width: 100%;
+  overflow: hidden;
+}
 </style>
